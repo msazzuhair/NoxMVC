@@ -1,0 +1,86 @@
+/**
+* 
+* WebProJect login css file
+* 
+* @package	WebProJect
+* @author	AufaIrfan and msazzuhair
+* @license	http://opensource.org/licenses/MIT	MIT License
+* @link     https://kafedev.com
+* @since	Version 1.0.0
+*/
+
+html,body{
+	margin: 0;
+	height:100%;
+}
+.body { 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url("../img/bg-login.jpg");
+	font-family: Arial, Helvetica, "Lucida Sans Unicode", "Lucida Grande", sans-serif;;
+	
+}
+h1 {
+	text-align: center;
+	font-weight: 300;
+}
+.judul-login{
+	color: rgb(237, 50, 55);
+	text-align: center;
+	font-weight:800;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin-bottom: 50px;
+}
+.judul-login small{
+    font-weight:400;
+    font-size:0.8em;
+    line-height:0.5em;
+}
+.kotak-login{
+	position: relative;
+	float: right;
+	height:auto !important;
+    min-height:calc(100% - 100px);
+	width: 25%;
+	background: white;
+	padding: 50px 40px;
+}
+label{
+	font-size: 11pt;
+}
+.form-login{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 10px;
+	font-size: 11pt;
+	margin: 25px 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	border: 1px solid rgb(146, 70, 70);
+	-webkit-text-fill-color: #000;
+	-webkit-box-shadow: 0 0 0px 1000px #fff inset;
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+.tombol-login{
+	cursor:pointer;
+	background: rgb(237, 50, 55);
+	color: white;
+	width:100%;
+	font-size: 11pt;
+	border:none;
+	margin: 15px 0 0 0;
+	padding: 10px 20px;
+}

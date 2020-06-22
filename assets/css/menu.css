@@ -1,0 +1,96 @@
+/**
+* 
+* WebProJect menu css file
+* 
+* @package	WebProJect
+* @author	AufaIrfan and msazzuhair
+* @license	http://opensource.org/licenses/MIT	MIT License
+* @link     https://kafedev.com
+* @since	Version 1.0.0
+*/
+
+html,body{
+	margin: 0;
+}
+nav {
+	font-weight: 400;
+	width: calc(100% - 10px);
+	height: 52px;
+	padding: 5px;
+	border-bottom: 3px solid rgb(237, 50, 55);
+	display: block;
+}
+.logo {
+	float: left;
+	width: auto;
+	height: 100%;
+}
+nav ul,
+nav li,
+nav span,
+nav a {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+nav:after,
+nav ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+nav a,nav a:visited {
+	color: #666666;
+	display: inline-block;
+	font-family: Arial, Helvetica, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	line-height: 52px;
+	padding: 0 28px;
+	text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+	color: rgb(237, 50, 55);
+}
+
+nav ul {
+	list-style: none;
+}
+nav > ul {
+	float: right;
+}
+nav > ul > li {
+	float: left;
+}
+nav .has-sub {
+	z-index: 10;
+}
+
+nav .has-sub ul a,nav .has-sub ul a:visited {
+	color: rgb(255, 205, 207);
+}
+
+nav .has-sub ul a:hover, nav .has-sub ul a:focus {
+	color: #fff;
+}
+
+nav .has-sub:hover > ul {
+	display: block;
+}
+nav .has-sub ul {
+	background-color: rgb(237, 50, 55);
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+}
+nav .has-sub .has-sub:hover > ul {
+	display: block;
+}
+nav .has-sub .has-sub ul {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
