@@ -39,7 +39,7 @@ http://localhost/your-folder-name
 ## Inspired from
 
 * [Codeigniter](https://github.com/bcit-ci/codeigniter)
-* A tutorial on the internet (*Forgot the URL*) :bowing-man:
+* A tutorial on the internet (*Forgot the URL*) :bowing_man:
 
 ## Authors
 
