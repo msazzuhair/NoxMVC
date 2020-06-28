@@ -1,6 +1,7 @@
 # NoxMVC
 
-A Simple PHP Framework with MVC. This Framework was built as a final project for my 3rd semester final project.
+A Simple PHP Framework with MVC. This Framework was built as a final project for my 3rd semester final project. This project wasn't intended to be used for real world tasks but it was intended to help me understand how MVC works in PHP frameworks like CodeIgniter.
+Feel free to use this project for whatever you need. :smile:
 
 ## Getting Started
 
@@ -38,7 +39,7 @@ http://localhost/your-folder-name
 ## Inspired from
 
 * [Codeigniter](https://github.com/bcit-ci/codeigniter)
-* A tutorial on the internet (*Forgot the URL*)
+* A tutorial on the internet (*Forgot the URL*) :bowing-man:
 
 ## Authors
 
