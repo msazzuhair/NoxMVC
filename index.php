@@ -3,12 +3,12 @@
     error_reporting(E_ALL);
     /**
      * 
-     * WebProJect index file
+     * NoxMVC index file
      * 
-     * @package	WebProJect
+     * @package	NoxMVC
      * @author	Muhammad Az Zuhair
      * @license	http://opensource.org/licenses/MIT	MIT License
-     * @link	https://kafedev.com
+     * @link	https://github.com/msazzuhair/NoxMVC
      * @since	Version 1.0.0
      */
 

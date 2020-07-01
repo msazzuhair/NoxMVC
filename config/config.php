@@ -2,12 +2,12 @@
     defined('BASEPATH') or exit('Akses Langsung Dilarang');
     /**
      * 
-     * WebProJect main configuration file
+     * NoxMVC main configuration file
      * 
-     * @package	WebProJect
+     * @package	NoxMVC
      * @author	Muhammad Az Zuhair
      * @license	http://opensource.org/licenses/MIT	MIT License
-     * @link	https://kafedev.com
+     * @link	https://github.com/msazzuhair/NoxMVC
      * @since	Version 1.0.0
      */
     

@@ -1,12 +1,12 @@
 <?php
     /**
      * 
-     * WebProJect URI helper core file
+     * NoxMVC URI helper core file
      * 
-     * @package	WebProJect
+     * @package	NoxMVC
      * @author	msazzuhair
      * @license	http://opensource.org/licenses/MIT	MIT License
-     * @link	https://kafedev.com
+     * @link	https://github.com/msazzuhair/NoxMVC
      * @since	Version 1.0.0
      */
     
